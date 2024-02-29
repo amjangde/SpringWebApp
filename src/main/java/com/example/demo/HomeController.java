@@ -13,7 +13,7 @@ public class HomeController {
 	@RequestMapping("home")
 	//	@ResponseBody -- If we want to return the string/data using return statement
 	// Use application.properties to set the prefix and suffix of the files which are stored in a different path other than webapp.
-	public String home(HttpServletRequest req)
+	public String home(HttpServletRequest req, HttpServletRequest res)
 	{
 		HttpSession session = req.getSession();
 		String name = req.getParameter("name"); // name is URL parameter
