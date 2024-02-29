@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-I love java
+I love java - ${name}
 </body>
 </html>
